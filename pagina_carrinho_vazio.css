@@ -1,0 +1,470 @@
+body
+{
+width:100%; /*largura*/  
+height:1200px; /*altura*/  
+display: flex;
+margin: 0px;
+flex-direction: column;
+align-content: center;
+align-items: center;   /*dsds*/     
+}
+
+.d1
+{
+    width: 100%;
+    height: 125px;
+    background-image: url(fundo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;    
+    border: 1px black solid;
+}
+ .d2
+{
+    width: 90%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;   
+}
+ .dd1
+{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;   
+    
+}
+
+.divp1
+{
+    width: 360px;
+    height: 100px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;    
+}
+
+.divp2
+{
+    width: 340px;
+    height: 30px;
+    background: white;
+    font-size: 22px;
+    font-family: 'Roboto';
+    padding: auto; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+    margin-top: 20px;
+    
+
+}
+
+.divp3{
+    width: 340px;
+    height: 220px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;    
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.divp4
+{
+    width: 340px;
+    height: 170px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+
+    margin-top: 15px;
+    
+}
+
+.c1
+{
+    width: 150px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+    background: rgb(185, 236, 255,0.8);
+    box-shadow: 1px 1px black;
+    
+}
+
+.c2
+{
+    width: 115px;
+    height: 50px;
+    margin-top: 140px;
+    
+    
+}
+
+.c3
+{
+    width: 80%;
+    height: 42px;
+    background-color:white;
+    
+    font-size: 22px;
+    font-family: 'Roboto';
+    padding: auto; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+
+}
+
+.c4
+{
+    width: 75%;
+    height: 42px;
+    background-color: rgb(185, 236, 255,0.5);;
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding: auto; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    border:black 2px outset; 
+    border-radius: 42px;
+    
+
+}
+
+.c4_1
+{
+    width: 75%;
+    height: 42px;
+    background-color: white;
+    border-radius: 42px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: auto; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+    border:black 2px outset;
+    
+
+
+}
+
+.textobrinq
+{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.letra_descri
+{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.adicionar_retirar
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(228, 225, 225);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;  
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding: auto; 
+    margin-top: 60px;
+    border:black 2px outset; 
+    border-radius: 32px;
+} 
+
+a{text-decoration: none;
+    color: black;
+}
+
+.rodape
+{
+    height: 50px;
+    width: 100%;
+    background-image: url(fundo.png);
+    border: 1px black solid;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+
+.lateral
+{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+.lateral
+{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    left: -175px;
+   
+}
+.animar
+{
+    animation: deslizar 2s forwards;
+}
+@keyframes deslizar
+{
+    0%{left:-175px;}    
+    100%{left:0px;} 
+}
+.opcoes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.cadastro
+{
+    width: 150px;
+    margin-top: 10px;
+    height: 40px;
+    background: rgb(185, 236, 255,0.8);
+    border-radius: 40px;
+    border: 2px outset rgb(138, 159, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20PX;
+    font-family: 'Roboto';
+    font-size: 17px;
+    
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.fechar
+{
+    width: 100px;
+    height: 25px;
+    margin-top: 30px;
+    border: 2px outset red;
+    background-color: lightcoral;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.espaco
+{
+    width: 1px;
+    height: 100px;
+}
+
+.carrinho_fonte
+{
+width: 100%;
+height: 100px;
+text-align: center;
+font-family: 'Roboto';
+font-size: 28px;
+
+}
+
+.button {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #222;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+  }
+  
+  .button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: #555;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: .25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+  }
+  
+  .button::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #555;
+    left: calc(50% - 10px);
+    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+  }
+  
+  .button::after,.button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper,.text,.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+  }
+  
+  .text {
+    top: 0
+  }
+  
+  .text,.icon {
+    transition: top 0.5s;
+  }
+  
+  .icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .button:hover {
+    background: #222;
+  }
+  
+  .button:hover .text {
+    top: -100%;
+  }
+  
+  .button:hover .icon {
+    top: 0;
+  }
+  
+  .button:hover:before,.button:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .button:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+  }
+  
+  .button:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+  }
+  
+  
+  
+  

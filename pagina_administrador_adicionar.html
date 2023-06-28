@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA PRINCIPAL</title>
+
+    <link rel="stylesheet" href="p.principal.css">
+
+    <script src="p.principal.js"></script>
+
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <div class="dd1"><img onclick="Aparecer();" src="dd1.png" alt="" width="15px"></div>
+            <img src="dd3.png" alt="" width="120px">
+            <a href="pagina_carrinho_vazio.php"><div class="dd1"><img src="dd2.png" alt="" width="20px"></div></a>
+        </div>
+            </div>
+        <div class="lateral" id="lateral"> 
+            <div class="logo"><img src="dd3.png" alt="" width="150px"></div>
+            <div class="opcoes">    
+                <a href="pagina_entrar_cadastrar.html"><div class="cadastro"> 
+                    <img class="imagem" src="usuario.png" width="17px">USUARIO
+                </div></a>
+                <a href="p.principal.php"><div class="cadastro"> 
+                    <img class="imagem" src="produtos.png" width="20px">PRODUTOS
+                </div></a>
+                <div class="cadastro">
+                    <a href="pagina_carrinho_vazio.php"><img class="imagem" src="dd2.png" width="20px"> CARRINHO
+                </div></a>
+                <div class="cadastro">
+                    <a href="fale_conosco.html"> FALE CONOSCO
+                </div></a>
+                <div onclick="Fechar();" class="fechar">FECHAR</div>
+            </div>
+        
+        </div>
+        <style>
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 40px;
+            border: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container h1 {
+            text-align: center;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-container input[type="text"],
+        .form-container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-container input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: rgba(58, 134, 162, 0.8);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color:rgb(185, 236, 255,0.8);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Página de Administração</h1>
+
+        <form method="post" action="adicionar_produto.php" enctype="multipart/form-data">
+            <div>
+                <label for="nome">Nome do Brinquedo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div>
+                <label for="codigo">Código:</label>
+                <input type="text" id="codigo" name="codigo" required>
+            </div>
+
+            <div>
+                <label for="preco">Preço:</label>
+                <input type="text" id="preco" name="preco" required>
+            </div>
+
+            <div>
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" required></textarea>
+            </div>
+
+            <div>
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto">
+            </div>
+
+            <input type="submit" value="Adicionar Produto">
+        </form>
+    </div>
+</body>
+</html>

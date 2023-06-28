@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA PRINCIPAL</title>
+
+    <link rel="stylesheet" href="p.principal.css">
+
+    <script src="p.principal.js"></script>
+
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <div class="dd1"><img onclick="Aparecer();" src="dd1.png" alt="" width="15px"></div>
+            <img src="dd3.png" alt="" width="120px">
+            <a href="pagina_carrinho_vazio.php"><div class="dd1"><img src="dd2.png" alt="" width="20px"></div></a>
+        </div>
+    </div>
+
+    <div class="lateral" id="lateral"> 
+        <div class="logo"><img src="dd3.png" alt="" width="150px"></div>
+        <div class="opcoes">    
+            <a href="pagina_entrar_cadastrar.html"><div class="cadastro"> 
+                <img class="imagem" src="usuario.png" width="17px">USUARIO
+            </div></a>
+            <a href="p.principal.php"><div class="cadastro"> 
+                <img class="imagem" src="produtos.png" width="20px">PRODUTOS
+            </div></a>
+            <div class="cadastro">
+                <a href="pagina_carrinho_vazio.php"><img class="imagem" src="dd2.png" width="20px"> CARRINHO
+            </div></a>
+            <div class="cadastro">
+                <a href="fale_conosco.html"> FALE CONOSCO
+            </div></a>
+            <div onclick="Fechar();" class="fechar">FECHAR</div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="titulo"></div> Bem-vindo, administrador!
+    <div class="botao">
+        <a href="pagina_registro_por_emailadministrador.html"><button class="verde" type="submit"><span class="letra">Opções de cadastro</span></button>
+        <a href="pagina_administrador_adicionar.html"><button class="verde" type="button"><span class="letra">Adicionar brinquedos</span></button></a>
+        
+    </div>
+</body>
+</html>
+        <style>
+        
+        
+
+        .botao
+        {
+            
+            height: 100px;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+            font-size: 10px;
+           
+            padding: auto; 
+            text-align: center; 
+            border-radius: 20px; 
+           
+
+        }    
+        
+        .verde
+        {
+            background-color: lightgreen;
+            border: 2px outset green;
+            border-radius: 20px;
+            display: flex;
+            padding: auto; 
+            text-align: center;
+            font-size: 18px;
+            height: 50px;
+            width: 140px;
+            margin-left: 10px;
+            text-align: center; 
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+            justify-content: center;
+
+        }
+
+        .letra
+        {
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+</html>
